@@ -26,6 +26,7 @@ def get_currency_rate(base: str) -> float:
 
 
     response = requests.get(url, headers={'apikey': API_KEY}, params={'base': base})
+    # return response
     # print(response.json)
 
 if __name__ == '__main__':
